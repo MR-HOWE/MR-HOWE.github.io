@@ -5,7 +5,7 @@ tags:
 ---
 
 ## 安装Anaconda和tensorflow
-> 日期：2019-01-01
+> 日期：2019-01-02
 
 ### Anaconda介绍
 Anaconda指的是一个开源的Python发行版本，其包含了conda、Python等180多个科学包及其依赖项。

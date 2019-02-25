@@ -61,6 +61,21 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 // 级别2显示warning和error，级别3只显示error
 ```
 
+### pycharm 添加已建立好的conda环境
+
+File --> Settings --> 搜索Project Interpreter
+
+点击右侧的齿轮按钮，再点击Add Local
+
+进入添加Interpreter的对话框，选择左侧的**Virtualenv Environment**
+再选择右侧的**Existing environment**
+
+我们自己在命令行创建的conda环境，在anaconda目录下的envs环境里。
+
+本人的安装路径为~/anaconda3
+
+因此选择~/anaconda3/envs/tensorflow/python3.6
+
 ### 参考文章
 
 1. https://zhuanlan.zhihu.com/p/32925500
